@@ -4,10 +4,10 @@ pipeline {
 	}
 	stages {
 		stage ('deploy-index') {
-		/*	steps {
+			steps {
 				sh "cat index.html > /var/www/html/index.html"
 				sh "chmod -R 777 /var/www/html"
-			}   */
+			}   
 		}
 	}
 }
